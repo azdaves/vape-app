@@ -1,0 +1,14 @@
+.submit {
+  padding: 1em;
+  text-align: center;
+  margin-top: 20px;
+  background: rgba(79, 59, 112, 0.1);
+  color: rgba(79, 59, 112, 1);
+}
+
+@media screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .submit {
+    margin-top: 120px;
+  }
+}

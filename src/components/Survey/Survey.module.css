@@ -1,0 +1,22 @@
+.nextBtn {
+  background: rgba(79, 59, 112, 1) !important;
+  color: white !important;
+  padding: 0.5em 2em !important;
+}
+
+.nextBtn:hover {
+  text-decoration: none;
+  background: rgba(79, 59, 112, 0.9) !important;
+  color: white !important;
+}
+
+.form {
+  padding: 2em 1em;
+}
+
+@media screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .form {
+    padding-top: 150px;
+  }
+}

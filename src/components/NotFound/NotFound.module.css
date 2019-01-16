@@ -1,0 +1,15 @@
+.notFound {
+  padding: 1em;
+  text-align: center;
+  margin-top: 20px;
+  background: rgba(79, 59, 112, 0.1);
+  color: rgba(79, 59, 112, 1);
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .notFound {
+    margin-top: 120px;
+  }
+}
